@@ -5,6 +5,7 @@ import App from './App';
 import './index.css'; // optional styling
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { ExamProvider } from './context/ExamContext';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
